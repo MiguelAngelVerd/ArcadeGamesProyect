@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    background: linear-gradient(rgb(0, 17, 255),rgb(7, 247, 251));
+    -webkit-background-clip: text;
+    color: transparent; 
+    margin-top: 0;
+    margin-left: 60px;
+    font-family: consolas;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+    font-family: consolas;
+    font-weight: bold;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.userData {
+    display: flex;
+    margin-right: 30px;
+}
+
+.username {
+    font-size: 20px;
+    font-family: consolas;
+    font-weight: bold;
+    color: rgb(7, 247, 251);
+}
+
+.logout {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: consolas;
+    font-weight: bold;
+    color: rgb(7, 247, 251);
+}
+
+.button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 80px;
+    background: #A770EF;
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    color: #460050;
+    font-family: consolas;
+    font-weight: bold;
+}
+
+.containerButton {
+    align-self: center;
+}
+
+.containerGames {
+    background-size: 240px 240px;
+    width: 240px;
+    height: 300px;
+    text-align: center;
+    margin-left: 250px;
+    display: flex;
+}
+
+.marginTateti {
+    margin-bottom: 50px;
+}
+
+.logoTateti {
+    background-image: url(../../assets/images/logoTateti.png);
+    background-size: 240px 240px;
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+}
+
+.logoMemory {
+    background-image: url(../../assets/images/logoMemory.png);
+    background-size: 240px 240px;
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+}

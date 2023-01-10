@@ -1,0 +1,7 @@
+.boardMemory {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 430px;
+    margin: 100px auto;
+}

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    background: linear-gradient(rgb(0, 17, 255),rgb(7, 247, 251));
+    -webkit-background-clip: text;
+    color: transparent; 
+    margin-top: 0;
+    font-family: consolas;
+    font-weight: bold;
+}
+
+.buttonLogin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background: #A770EF;
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    color: #460050;
+    font-family: consolas;
+    font-weight: bold;
+    align-self: center;
+    cursor: pointer;
+}
+
+.buttonInfo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background: #A770EF;
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    color: #460050;
+    font-family: consolas;
+    font-weight: bold;
+    align-self: center;
+    cursor: pointer;
+    left: 10px;
+    bottom: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.containerForm {
+    background-size: 240px 240px;
+    width: 240px;
+    height: 300px;
+    margin-left: 250px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: consolas;
+}
