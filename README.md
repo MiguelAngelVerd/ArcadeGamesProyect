@@ -23,12 +23,13 @@ Con esto ya tendriamos lista la parte de instalación.
 
 ## Ejecutar la aplicación
 
-Y para el servidor Json, tendriamos que ubicarnos en la capeta JsonDB y usar el mismo comando:
+El comando necesario para arrancar el servidor Json, tendriamos que ubicarnos en la capeta JsonDB y usar el mismo comando:
 ```
 $ npm start
 ```
 Se levantará en el puerto 3001. La url es http://localhost:3001/users, aquí podremos ver la lista de usuario y contraseñas con las que se puede hacer login. 
-El comando necesario para arrancar la aplicación, es necesario ubicarnos en la carpeta GameProyect y usar el comando:
+
+Y para arrancar la aplicación, es necesario ubicarnos en la carpeta GameProyect y usar el comando:
 ```
 $ npm start
 ```
